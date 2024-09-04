@@ -13,7 +13,7 @@ Modelando um PSC - Programa de Suporte ao Condutor 🗝️
 | [MVP](https://github.com/z0mer/PJ.PSC/blob/main/MVP.md) |
 | [NPS](https://github.com/z0mer/PJ.PSC/blob/main/NPS.md) |
 | [Modelagem](https://github.com/z0mer/PJ.PSC/blob/main/Modelagem.md) |
-| [Negócios do Projeto](https://github.com/z0mer/PJ.PSC/blob/main/NegociosDoProjeto.md) |
+| [Negócios do Projeto](https://github.com/z0mer/PJ.PSC/blob/main/NegocioDoProjeto.md) |
 | [Processos de Projeto](https://github.com/z0mer/PJ.PSC/blob/main/ProcessosDeProjeto.md) |
 
 </div>
