@@ -1,6 +1,6 @@
 <div align = "middle">  
     
-# FLUXOS *NEXT HELP* ❇️
+# FLUXOS: *NEXT HELP* ❇️
 
 </div>
 
