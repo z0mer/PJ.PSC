@@ -13,7 +13,8 @@
     - Promotores (notas 9 e 10)
     - Neutros (notas 7 e 8)
     - Detratores (notas de 0 a 6)
-    - Calcular o NPS:  % Promotores - % Detratores = NPS
+    <!-- - Calcular o NPS:  % Promotores - % Detratores = NPS -->
+  
 * **Coleta de Feedback Adicional:** Incluir um campo aberto para os usuários justificarem suas notas.
 * **Análise e Ação:** 
     - Monitorar o NPS ao longo do tempo.
