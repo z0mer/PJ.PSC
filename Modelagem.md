@@ -1,4 +1,7 @@
-# Cadastro de Usuários
+# FLUXOS *NEXT HELP* ❇️
+
+----
+# Cadastro de consumidor
 
 ```mermaid
 graph LR
@@ -17,6 +20,25 @@ graph LR
     K --> F
     J -- Não --> I
     I --> L(Fim - Motorista utiliza o PSC)
+```
+
+# Cadastro de Prestadores de Serviço
+
+```mermaid
+graph LR
+    A[Prestador acessa a seção 'Tornar-se um Prestador'] --> B(Sistema exibe tipos de serviço)
+    B --> C(Prestador seleciona o tipo de serviço)
+    C --> D(Sistema exibe formulário de cadastro específico)
+    D --> E(Prestador preenche informações - dados pessoais, área de atuação, especialidades, etc.)
+    E --> F(Sistema valida informações)
+    F -- Válido --> G(Prestador define detalhes do serviço preços, disponibilidade, etc.)
+    G --> H(Sistema revisa e aprova o cadastro)
+    H -- Aprovado --> I(Sistema notifica o prestador sobre a aprovação)
+    I --> J(Fim - Cadastro completo, prestador apto a receber solicitações)
+    H -- Pendente --> K(Sistema solicita informações adicionais ou correções)
+    K --> E
+    F -- Inválido --> L(Sistema informa erro e solicita correção)
+    L --> E
 ```
 
 # Busca e Contato com Prestadores de Serviços
@@ -160,21 +182,4 @@ graph LR
     E --> F(Fim - Pagamento acertado externamente)
 ```
 
-# Cadastro de Prestadores de Serviço
 
-```mermaid
-graph LR
-    A[Prestador acessa a seção 'Tornar-se um Prestador'] --> B(Sistema exibe tipos de serviço)
-    B --> C(Prestador seleciona o tipo de serviço)
-    C --> D(Sistema exibe formulário de cadastro específico)
-    D --> E(Prestador preenche informações - dados pessoais, área de atuação, especialidades, etc.)
-    E --> F(Sistema valida informações)
-    F -- Válido --> G(Prestador define detalhes do serviço preços, disponibilidade, etc.)
-    G --> H(Sistema revisa e aprova o cadastro)
-    H -- Aprovado --> I(Sistema notifica o prestador sobre a aprovação)
-    I --> J(Fim - Cadastro completo, prestador apto a receber solicitações)
-    H -- Pendente --> K(Sistema solicita informações adicionais ou correções)
-    K --> E
-    F -- Inválido --> L(Sistema informa erro e solicita correção)
-    L --> E
-```
