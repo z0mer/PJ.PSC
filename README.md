@@ -1,4 +1,4 @@
-# NOME DO APP 🚗
+# NEXT HELP 🚗
 
 Modelando um PSC - Programa de Suporte ao Condutor 🗝️
 
@@ -6,18 +6,11 @@ Modelando um PSC - Programa de Suporte ao Condutor 🗝️
 
 - O esquemático abaixo te levará aos principais tópicos da modelagem do nosso sistema. ✔️
 
-## Como utilizar🧑🏻‍💻
-#### Para desenvolvimento: 
-1 - Clone o repositório
-
-```git
- $ https://github.com/LuiisMarim/AnaliseDeDadosPokemon.git
-```
-
-2 - Abra o arquivo no ambiente Python com suporte das bibliotecas mencionadas.
-- Recomedação do desenvolvedor: <br/>
-    <img align="center" alt="Jupyter" src="https://img.shields.io/badge/Jupyter-F37626.svg?style=for-the-badge&logo=Jupyter&logoColor=white"/>
-
+[MVP](https://github.com/z0mer/PJ.PSC/blob/main/MVP.md) |
+[NPS](https://github.com/z0mer/PJ.PSC/blob/main/NPS.md) |
+[Modelagem](https://github.com/z0mer/PJ.PSC/blob/main/Modelagem.md) |
+[Negócios do Projeto](https://github.com/z0mer/PJ.PSC/blob/main/NegociosDoProjeto.md) |
+[Processos de Projeto](https://github.com/z0mer/PJ.PSC/blob/main/ProcessosDeProjeto.md) 
 
 ## Autores ✒️  
 
