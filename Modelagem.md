@@ -36,8 +36,6 @@ graph LR
     F -- Não --> J(Motorista finaliza busca)
     I --> K(Comunicação estabelecida)
 
-    classDef default stroke:#333,fill:#fff,rx:5px,ry:5px
-    classDef decision stroke:#333,fill:#fff,rx:40px,ry:40px
 ```
 
 #  Acesso a Tutoriais de Autoajuda
