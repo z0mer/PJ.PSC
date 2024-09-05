@@ -8,12 +8,12 @@ Modelando um PSC - Programa de Suporte ao Condutor 🗝️
   
 <div align = "middle">
  
-| PROCESSOS DE MODELAGEM 🔨 |
+| 🔨 |
 |---------|
 | [Minimum Viable Product - MVP](https://github.com/z0mer/PJ.PSC/blob/main/MVP.md) |
 | [Net Promoter Score - NPS](https://github.com/z0mer/PJ.PSC/blob/main/NPS.md) |
 | [Modelagem](https://github.com/z0mer/PJ.PSC/blob/main/Modelagem.md) |
-| [Negócios do Projeto](https://github.com/z0mer/PJ.PSC/blob/main/NegocioDoProjeto.md) |
+| [Escopo de Negócio](https://github.com/z0mer/PJ.PSC/blob/main/NegocioDoProjeto.md) |
 | [Processos de Negócios](https://github.com/z0mer/PJ.PSC/blob/main/ProcessosDeNegocios.md) |
 
 </div>
