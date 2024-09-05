@@ -23,7 +23,7 @@ Modelando um PSC - Programa de Suporte ao Condutor 🗝️
 
 - O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas: 🏗️
 
-- [ ]  XPTO
+- [ ]  Esperando feedback
 
 
 ## Autores ✒️  
