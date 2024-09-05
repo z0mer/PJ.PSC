@@ -1,6 +1,6 @@
 <div align = "middle">  
 
-## Processos de Negócio do PSC: *NEXT HELP* ❇️
+## Processos do Negócio do PSC: *NEXT HELP* ❇️
 
 </div>
 
