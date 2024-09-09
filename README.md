@@ -1,6 +1,6 @@
 # NEXT HELP 🚗
 
-Modelando um PSC - Programa de Suporte ao Condutor 🗝️
+Construindo um PSC - Programa de Suporte ao Condutor 🗝️
 
 ## Sobre o desenvolvimento. 🖥️
 
