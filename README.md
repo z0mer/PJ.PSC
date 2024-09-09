@@ -4,7 +4,7 @@ Modelando um PSC - Programa de Suporte ao Condutor 🗝️
 
 ## Sobre o desenvolvimento. 🖥️
 
-- O esquemático abaixo te levará aos principais tópicos da modelagem do nosso sistema. ✔️
+- O esquemático abaixo te levará aos principais tópicos da construção do nosso sistema. ✔️
   
 <div align = "middle">
  
