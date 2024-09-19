@@ -15,7 +15,7 @@ Construindo um PSC - Programa de Suporte ao Condutor 🗝️
 | [Modelagem](https://github.com/z0mer/PJ.PSC/blob/main/Modelagem.md) |
 | [Escopo de Negócio](https://github.com/z0mer/PJ.PSC/blob/main/NegocioDoProjeto.md) |
 | [Processos de Negócios](https://github.com/z0mer/PJ.PSC/blob/main/ProcessosDeNegocios.md) |
-| [StakeHolders](https://github.com/z0mer/PJ.PSC/blob/main/StakeHolders.md) |
+| [Stakeholders](https://github.com/z0mer/PJ.PSC/blob/main/StakeHolders.md) |
 | [Requisitos](https://github.com/z0mer/PJ.PSC/blob/main/Requisitos.md) |
 | [Recursos Tecnológicos](https://github.com/z0mer/PJ.PSC/blob/main/RecursosTecnologicos.md) |
 
