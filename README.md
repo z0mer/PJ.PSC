@@ -18,6 +18,7 @@ Construindo um PSC - Programa de Suporte ao Condutor 🗝️
 | [Stakeholders](https://github.com/z0mer/PJ.PSC/blob/main/StakeHolders.md) |
 | [Requisitos](https://github.com/z0mer/PJ.PSC/blob/main/Requisitos.md) |
 | [Recursos Tecnológicos](https://github.com/z0mer/PJ.PSC/blob/main/RecursosTecnologicos.md) |
+| [Histórias de Usuário](https://github.com/z0mer/PJ.PSC/blob/main/Histories.md) |
 
 </div>
 
