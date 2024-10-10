@@ -40,7 +40,7 @@ graph LR
     D --> E(Prestador preenche informações- Prestador de Serviço)
     E --> F(Sistema valida informações- Sistema)
     F -- Válido --> G(Prestador define detalhes do serviço- Prestador de Serviço)
-    G --> H(Sistema/Admin revisa e aprova o cadastro)(S, AF)
+    G --> H(Sistema/Admin revisa e aprova o cadastro- Sistema, Adm. Finan.)
     H -- Aprovado --> I(Sistema notifica o prestador sobre a aprovação- Sistema)
     I --> J(Fim - Cadastro completo, prestador apto a receber solicitações)
     H -- Pendente --> K(Sistema solicita informações adicionais ou correções- Sistema)
@@ -87,14 +87,14 @@ graph LR
 
 ```mermaid
 graph LR
-    A[Criador acessa painel administrativo]- Admin/Financeiro --> B(Sistema exibe opção 'Criar Tutorial'- Sistema)
-    B --> C(Criador escolhe categoria)- Admin/Financeiro
+    A[Criador acessa painel administrativo- Admin/Financeiro] --> B(Sistema exibe opção 'Criar Tutorial'- Sistema)
+    B --> C(Criador escolhe categoria- Admin/Financeiro)
     C --> D(Sistema exibe formulário de cadastro- Sistema)
-    D --> E(Criador preenche informações do tutorial)- Admin/Financeiro
+    D --> E(Criador preenche informações do tutorial- Admin/Financeiro)
     E --> F{Vídeo?-Sistema}
-    F -- Sim --> G(Criador envia vídeo)- Admin/Financeiro
+    F -- Sim --> G(Criador envia vídeo- Admin/Financeiro)
     G --> H(Sistema valida aspectos técnicos e legais do vídeo- Sistema)
-    H -- Válido --> I(Criador adiciona conteúdo - texto, imagens)- Admin/Financeiro
+    H -- Válido --> I(Criador adiciona conteúdo - texto, imagens- Admin/Financeiro)
     H -- Inválido --> M(Sistema informa erro e solicita novo envio- Sistema)
     M --> G
     F -- Não --> I
@@ -132,7 +132,7 @@ graph LR
     D -- Falha --> F(Sistema informa erro ao motorista- Sistema)
     E --> G(Fim - Pagamento realizado)
     F --> H(Motorista tenta novamente ou cancela- Motorista)
-    B -- Não --> I(Motorista acerta pagamento com prestador)(M, PS)
+    B -- Não --> I(Motorista acerta pagamento com prestador- Motorista, Prest. Serv.)
     I --> J(Fim - Pagamento externo) 
 ```
 
@@ -140,7 +140,7 @@ graph LR
 
 ```mermaid
 graph LR
-    A[Mecânica acessa o PSC-Prestador de Serviço]s --> B{Mecânica possui cadastro?-Prestador de Serviço}
+    A[Mecânica acessa o PSC-Prestador de Serviços] --> B{Mecânica possui cadastro?-Prestador de Serviço}
     B -- Sim --> C(Mecânica faz login- Prestador de Serviço)
     B -- Não --> D(Mecânica inicia cadastro como prestadora- Prestador de Serviço)
     D --> E(Mecânica informa dados- Prestador de Serviço)
@@ -184,7 +184,7 @@ graph LR
     A[Serviço Concluído] --> B{Pagamento pelo aplicativo?-Sistema}
     B -- Sim --> C(Sistema notifica mecânica sobre pagamento- Sistema)
     C --> D(Fim - Pagamento confirmado)
-    B -- Não --> E(Mecânica acerta pagamento com o motorista)(PS, M)
+    B -- Não --> E(Mecânica acerta pagamento com o motorista- Prest. Serv., Motorista)
     E --> F(Fim - Pagamento acertado externamente)
 ```
 
@@ -192,7 +192,7 @@ graph LR
 
 ```mermaid
 graph LR
-    A[Pagamento Confirmado (App ou Externo)] --> B(Sistema registra a transação financeira- Sistema)
+    A[Pagamento Confirmado - App ou Externo] --> B(Sistema registra a transação financeira- Sistema)
     B --> C{Pagamento pelo App?-Sistema}
     C -- Sim --> D(Sistema calcula comissão da plataforma- Sistema)
     C -- Não --> E(Sistema registra pagamento como externo - sem comissão- Sistema)
@@ -201,7 +201,7 @@ graph LR
     F --> G(Sistema disponibiliza NF-e para Motorista e Prestador- Sistema)
     G --> H{Fim do Mês?-Sistema}
     H -- Sim --> I(Sistema gera relatório financeiro para Prestadores- Sistema)
-    I --> J(Sistema processa repasses de pagamentos aos Prestadores)(S, AF)
+    I --> J(Sistema processa repasses de pagamentos aos Prestadores- Sistema, Adm. Finan.)
     H -- Não --> K(Processo de NF-e e Faturamento continua no próximo pagamento)
     J --> L(Fim - Repasses e Relatórios Financeiros Concluídos)
     K --> A
