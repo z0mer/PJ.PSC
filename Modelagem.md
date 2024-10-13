@@ -1,11 +1,11 @@
-## **Legenda:**
+## Legenda ❇️:
 
 * **Motorista - Motorista**
 * **Prestador de Serviço - Prestador de Serviços** 
 * **Sistema PSC - Sistema**
 * **Admin/Financeiro - Admin/Financeiro** - Representa o time interno responsável por funções administrativas e financeiras.
 
-## Fluxos Completos:
+## Fluxos ❇️:
 
 **1. Cadastro de Consumidor:**
 
