@@ -1,5 +1,3 @@
-Perfeito! Vamos adicionar os atores e os fluxos de emissão de nota fiscal e faturamento aos seus diagramas.
-
 ## **Legenda:**
 
 * **Motorista - Motorista**
