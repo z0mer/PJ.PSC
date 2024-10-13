@@ -206,5 +206,3 @@ graph LR
     J --> L(Fim - Repasses e Relatórios Financeiros Concluídos)
     K --> A
 ```
-
-Com os atores, processos de pagamento, emissão de NF-e e  faturamento mapeados, você tem uma visão mais completa do funcionamento do seu sistema. 😉 
