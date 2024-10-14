@@ -3,7 +3,6 @@
 * **Motorista - Motorista**
 * **Prestador de Serviço - Prestador de Serviços** 
 * **Sistema PSC - Sistema**
-* **Admin/Financeiro - Admin/Financeiro** - Representa o time interno responsável por funções administrativas e financeiras.
 
 ## Fluxos ❇️:
 
@@ -38,7 +37,7 @@ graph LR
     D --> E(Prestador preenche informações- Prestador de Serviço)
     E --> F(Sistema valida informações- Sistema)
     F -- Válido --> G(Prestador define detalhes do serviço- Prestador de Serviço)
-    G --> H(Sistema/Admin revisa e aprova o cadastro- Sistema, Adm. Finan.)
+    G --> H(Sistema/Admin revisa e aprova o cadastro- Sistema)
     H -- Aprovado --> I(Sistema notifica o prestador sobre a aprovação- Sistema)
     I --> J(Fim - Cadastro completo, prestador apto a receber solicitações)
     H -- Pendente --> K(Sistema solicita informações adicionais ou correções- Sistema)
@@ -85,14 +84,14 @@ graph LR
 
 ```mermaid
 graph LR
-    A[Criador acessa painel administrativo- Admin/Financeiro] --> B(Sistema exibe opção 'Criar Tutorial'- Sistema)
-    B --> C(Criador escolhe categoria- Admin/Financeiro)
+    A[Criador acessa painel administrativo- ] --> B(Sistema exibe opção 'Criar Tutorial'- Sistema)
+    B --> C(Criador escolhe categoria- )
     C --> D(Sistema exibe formulário de cadastro- Sistema)
-    D --> E(Criador preenche informações do tutorial- Admin/Financeiro)
+    D --> E(Criador preenche informações do tutorial- )
     E --> F{Vídeo?-Sistema}
-    F -- Sim --> G(Criador envia vídeo- Admin/Financeiro)
+    F -- Sim --> G(Criador envia vídeo- )
     G --> H(Sistema valida aspectos técnicos e legais do vídeo- Sistema)
-    H -- Válido --> I(Criador adiciona conteúdo - texto, imagens- Admin/Financeiro)
+    H -- Válido --> I(Criador adiciona conteúdo - texto, imagens- )
     H -- Inválido --> M(Sistema informa erro e solicita novo envio- Sistema)
     M --> G
     F -- Não --> I
@@ -199,7 +198,7 @@ graph LR
     F --> G(Sistema disponibiliza NF-e para Motorista e Prestador- Sistema)
     G --> H{Fim do Mês?-Sistema}
     H -- Sim --> I(Sistema gera relatório financeiro para Prestadores- Sistema)
-    I --> J(Sistema processa repasses de pagamentos aos Prestadores- Sistema, Adm. Finan.)
+    I --> J(Sistema processa repasses de pagamentos aos Prestadores- Sistema)
     H -- Não --> K(Processo de NF-e e Faturamento continua no próximo pagamento)
     J --> L(Fim - Repasses e Relatórios Financeiros Concluídos)
     K --> A
