@@ -2,7 +2,7 @@
 
 Construindo um PSC - Programa de Suporte ao Condutor 🗝️
 
-## Sobre o desenvolvimento. 🖥️
+## Sobre o desenvolvimento 🖥️
 
 - O esquemático abaixo te levará aos principais tópicos da construção do nosso sistema. ✔️
   
@@ -21,16 +21,19 @@ Construindo um PSC - Programa de Suporte ao Condutor 🗝️
 | [Regras de Negócios](https://github.com/z0mer/PJ.PSC/blob/main/RegrasDeNegocios.md) |
 | [Histórias de Usuário](https://github.com/z0mer/PJ.PSC/blob/main/Histories.md) |
 
-
 </div>
 
+## Protótipo das telas 🖼️
 
-### Ajustes e melhorias 🚧
+- O link abaixo te levará ao protótipo do nosso sistema. ✔️
 
-- O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas: 🏗️
+<div align = "middle">
+ 
+| 🖌️ |
+|---------|
+| [Clique aqui para acessar.](https://drive.google.com/file/d/1e-5tHw2V2S-r9dlG3FsL-H6HaXj2FN6J/view?usp=drive_link) |
 
-- [ ]  Esperando feedback
-
+</div>
 
 ## Autores ✒️  
 
