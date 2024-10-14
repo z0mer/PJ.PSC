@@ -27,11 +27,13 @@ Construindo um PSC - Programa de Suporte ao Condutor 🗝️
 
 - O link abaixo te levará ao protótipo do nosso sistema. ✔️
 
+> ⚠️ **Aviso:** Para melhor visualização, é importante realizar o download do arquivo.
+
 <div align = "middle">
  
 | 🖌️ |
 |---------|
-| [Clique aqui para acessar.](https://drive.google.com/file/d/1e-5tHw2V2S-r9dlG3FsL-H6HaXj2FN6J/view?usp=drive_link) |
+| [Clique aqui para acessar](https://drive.google.com/file/d/1e-5tHw2V2S-r9dlG3FsL-H6HaXj2FN6J/view?usp=drive_link) |
 
 </div>
 
