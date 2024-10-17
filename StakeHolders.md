@@ -5,7 +5,7 @@
 * **Product Owner (PO):** Define a visão do produto, prioriza funcionalidades e garante o alinhamento com as necessidades do mercado.
 * **Equipe de Desenvolvimento:**  Responsável por projetar, codificar, testar e implantar o software.
 * **Equipe de Design:**  Cria a interface do usuário (UI) e a experiência do usuário (UX) do aplicativo.
-* **Equipe de Marketing:**  Promove o Next Help para o público-alvo e gere leads
+* **Equipe de Marketing:**  Promove o Next Help para o público-alvo e gere leads.
 
 **Externos:**
 
