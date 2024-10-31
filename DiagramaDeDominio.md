@@ -2,6 +2,7 @@
 
 classDiagram
     class Motorista {
+        .(Representa um usuário do sistema que busca serviços para seu veículo.)
         -id: int
         -nome: string
         -email: string
@@ -9,6 +10,7 @@ classDiagram
         -telefone: string
     }
     class Veiculo {
+        .(Representa um veículo cadastrado no sistema por um motorista.)
         -id: int
         -motorista_id: int
         -marca: string
@@ -16,6 +18,7 @@ classDiagram
         -ano: int
     }
     class Manutencao {
+        .(Representa um registro de manutenção realizada em um veículo.)
         -id: int
         -veiculo_id: int
         -data: date
@@ -23,6 +26,7 @@ classDiagram
         -descricao: string
     }
     class Prestador {
+        .(Representa um prestador de serviços automotivos cadastrado na plataforma.)
         -id: int
         -nome: string
         -email: string
@@ -32,6 +36,7 @@ classDiagram
         -area_atendimento: string
     }
     class Servico {
+        .(Representa um tipo de serviço oferecido por um prestador.)
         -id: int
         -prestador_id: int
         -nome: string
@@ -39,11 +44,13 @@ classDiagram
         -categoria: string
     }
     class Localizacao {
+        .(Armazena coordenadas geográficas. Usada para representar a localização de motoristas e prestadores.)
         -id: int
         -latitude: float
         -longitude: float
     }
     class Solicitacao {
+        .(Representa uma solicitação de serviço feita por um motorista a um prestador.)
         -id: int
         -motorista_id: int
         -prestador_id: int
@@ -52,6 +59,7 @@ classDiagram
         -status: string
     }
     class Avaliacao {
+        .(Representa a avaliação de um serviço prestado, feita pelo motorista.)
         -id: int
         -solicitacao_id: int
         -nota: int
@@ -67,3 +75,4 @@ classDiagram
     Solicitacao "*" -- "1" Servico : solicita
 
 ```
+
