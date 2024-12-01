@@ -117,4 +117,3 @@
 * Solicitação 1 --- 1 Localização (localização do problema)
 
 
-Este modelo detalhado fornece uma base sólida para o desenvolvimento do PSC, com informações suficientes para implementar as funcionalidades e os relacionamentos entre as entidades.  Lembre-se de que este modelo pode ser ajustado e refinado conforme as necessidades do seu projeto evoluem.
